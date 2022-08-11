@@ -57,28 +57,28 @@ body {
     font-size: 25px;
 }
 
-.util-btns ul {
+.util-btns {
     display: flex;
     margin: 10px 0 5px 0;
     justify-content: space-evenly;
 }
 
-.util-btns ul li {
+.util-btns button {
     border: 1px solid #000;
     width: 100%;
     border-radius: 0.25rem;
 }
 
-.util-btns ul li:first-child {
+.util-btns button:first-child {
     background-color: #88d;;
     margin-right: 10px;
 }
 
-.util-btns ul li:last-child{
+.util-btns button:last-child{
     background-color: #d88;
 }
 
-.numpad .grid li {
+.numpad.grid button {
     border: 1px solid #000;
     border-radius: 0.3rem;
 }

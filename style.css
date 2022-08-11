@@ -1,0 +1,73 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000;
+    border-radius: 0.6rem;
+    width: 350px;
+    padding: 0.7rem;
+    background-color: grey;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.screen {
+    padding: 10px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 2px solid #000;
+    border-radius: 0.3rem;
+}
+
+.screen h1,
+.screen h3{
+    text-align: right;
+}
+
+.screen h1{
+    font-size: 30px;
+}
+
+.util-btns ul {
+    display: flex;
+    margin: 10px 0 5px 0;
+    justify-content: space-evenly;
+}
+
+.util-btns ul li {
+    border: 2px solid #000;
+    font-size: 25px;
+}
+
+.util-btns ul li .del-btn {
+    background-color: blue
+}
+
+.util-btns ul li .clear-btn{
+    background-color: red;
+}
+
+.numpad .grid ul li {
+    border: 2px solid #000;
+}

@@ -1,3 +1,5 @@
+// Some functions based on michalosman's calculator
+
 const numsBtn = document.querySelectorAll('.num');
 const opsBtn = document.querySelectorAll('.op');
 const decimalBtn = document.querySelector('.decimal');

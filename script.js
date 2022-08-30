@@ -14,7 +14,7 @@ operand0 = operand1 = 0;
 clearBtn.addEventListener('click', clearScreen);
 deleteBtn.addEventListener('click', popCurrNum);
 numsBtn.forEach((button) => button.addEventListener('click', () => appendCurrNum(button.textContent)));
-opsBtn.forEach((button) => button.addEventListener('click', () => setOp(button.textContent[0])));
+opsBtn.forEach((button) => button.addEventListener('click', () => setOp(button.textContent[0])));   // Ensure only operators are stored
 decimalBtn.addEventListener('click', appendDecimal);
 equalsBtn.addEventListener('click', evaluate);
 
